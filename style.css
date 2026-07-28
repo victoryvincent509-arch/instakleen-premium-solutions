@@ -255,11 +255,11 @@ button {
   font-size: 1.25rem;
 }
 
-.logo-insta {
+.logo-le {
   color: #1A73E8;
 }
 
-.logo-kleen {
+.logo-blanc {
   color: #00C853;
 }
 
@@ -596,6 +596,7 @@ button {
 .services-preview-grid {
   display: grid;
   gap: 1.5rem;
+  grid-template-columns: 1fr;
 }
 
 .service-cards {
@@ -1362,10 +1363,10 @@ button {
   }
 
   .services-preview-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
-  .how-it-works-grid {
+  .why-choose-grid {
     grid-template-columns: repeat(4, 1fr);
   }
 
