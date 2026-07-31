@@ -610,6 +610,9 @@ button {
   overflow: hidden;
   box-shadow: var(--shadow-sm);
   transition: transform var(--transition), box-shadow var(--transition);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .service-card:hover {
@@ -639,6 +642,9 @@ button {
 
 .service-card-content {
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .service-card-body h3,
@@ -654,6 +660,11 @@ button {
   font-size: 0.9375rem;
   color: var(--color-text-muted);
   margin-bottom: 1rem;
+}
+
+.service-card-content .btn {
+  margin-top: auto;
+  align-self: flex-start;
 }
 
 .why-section {
